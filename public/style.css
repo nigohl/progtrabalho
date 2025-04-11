@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #cdd0e4;
     margin: 0;
     padding: 20px;
     color: #333;
@@ -9,10 +9,10 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background: #fff;
+    background: #9a9fbe;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.479);
 }
 
 h1, h2 {
@@ -27,33 +27,32 @@ input[type="text"] {
     width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 4px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
-    color: white;
+    background-color: #002c6e;
+    color: rgb(220, 222, 255);
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color:#0043a7;
 }
 
 .result {
     padding: 10px;
-    background-color: #f8f9fa;
-    border: 1px solid #ccc;
+    background-color: #e2eeff;
     border-radius: 4px;
     margin-bottom: 20px;
 }
 
 .error {
-    color: #dc3545;
+    color: #a80011;
     font-weight: bold;
 }

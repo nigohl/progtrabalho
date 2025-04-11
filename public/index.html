@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Timestamp Microservice</title>
-    <link rel="stylesheet" href="./style.css">
-    <script defer src="./index.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <h1>Conversor de Datas</h1>
-    <div class="container">
-        <div class="input-conv">
-            <input type="text" id="dateInput" placeholder="Data ou Timestamp">
-            <button id="btnConv">Converter</button>
+    <head>
+        <title>Timestamp Microservice PROGRAMAÇÃO</title>
+        <!-- Define o título da página que aparece na aba do navegador -->
+    
+        <link rel="stylesheet" href="./style.css">
+        <!-- Importa um arquivo de estilo externo chamado style.css, que será usado para estilizar a página -->
+    
+        <script defer src="./index.js"></script>
+        <!-- Importa um arquivo de JavaScript externo chamado index.js. 
+             O atributo "defer" garante que o script será executado somente após o carregamento completo do HTML -->
+    
+        <meta charset="utf-8">
+        <!-- Define a codificação de caracteres para UTF-8, garantindo compatibilidade com caracteres especiais -->
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Torna a página responsiva, ajustando o layout para diferentes tamanhos de tela -->
+    </head>
+    
+    <body>
+        <h1>Conversor de Datas</h1>
+        <!-- Cabeçalho principal da página -->
+    
+        <div class="container">
+            <!-- Container principal que agrupa os elementos da interface -->
+    
+            <div class="input-conv">
+                <!-- Div para entrada de dados para conversão -->
+    
+                <input type="text" id="dateInput" placeholder="Data ou Timestamp">
+                <!-- Campo de texto onde o usuário insere uma data ou timestamp -->
+    
+                <button id="btnConv">Converter</button>
+                <!-- Botão que, ao ser clicado, aciona a conversão do valor inserido -->
+            </div>
+    
+            <div class="result" id="dateOutput"></div>
+            <!-- Div onde será exibido o resultado da conversão de data ou timestamp -->
+    
+            <h2>Comparação de Datas</h2>
+            <!-- Subtítulo para a seção de comparação de datas -->
+    
+            <div class="input-comp">
+                <!-- Div para entrada de dados para comparação de duas datas -->
+    
+                <input type="text" id="date1" placeholder="Digite a primeira data">
+                <!-- Campo de texto para inserir a primeira data a ser comparada -->
+    
+                <input type="text" id="date2" placeholder="Digite a segunda data">
+                <!-- Campo de texto para inserir a segunda data a ser comparada -->
+    
+                <button id="btnCompare">Comparar</button>
+                <!-- Botão que, ao ser clicado, aciona a comparação entre as duas datas -->
+            </div>
+    
+            <div class="result" id="diffResult"></div>
+            <!-- Div onde será exibido o resultado da comparação entre as datas -->
         </div>
-        <div class="result" id="dateOutput"></div>
-
-        <h2>Comparação de Datas</h2>
-        <div class="input-comp">
-            <input type="text" id="date1" placeholder="Primeira data">
-            <input type="text" id="date2" placeholder="Segunda data">
-            <button id="btnCompare">Comparar</button>
-        </div>
-        <div class="result" id="diffResult"></div>
-    </div>
-</body>
-</html>
+    </body>
+    </html>
